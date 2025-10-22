@@ -23,4 +23,7 @@ En este primer ejemplo se envía un mensaje `"Hello World!"` desde un productor 
 
 ### EJECUCIÓN
 
+[Ver diagrama](https://github.com/Kath1109/RabbitMQ/blob/main/Images/hello_world.png?raw=true)
+
+
 
