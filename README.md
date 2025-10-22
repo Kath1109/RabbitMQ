@@ -4,26 +4,31 @@ Este repositorio contiene la implementación paso a paso de los tutoriales ofici
 Basado en la guía oficial: [RabbitMQ Tutorials](https://www.rabbitmq.com/getstarted.html)
 
 ---
+1. hello-world
 
-## 📘 Tutorial 1 – “Hello World!”
+Este primer tutorial enseña los fundamentos básicos de mensajería con RabbitMQ: productor, cola y consumidor. Se envía un mensaje "Hello World!" desde un productor hacia un consumidor a través de la cola hello.
+Ver más en Hello World! tutorial
+.
+Carpeta: hello-world
 
-> [Tutorial original](https://www.rabbitmq.com/tutorials/tutorial-one-python)
+2. queues
 
-### OBJETIVO
-Aprender los conceptos básicos de mensajería en RabbitMQ: **Productor**, **Cola** y **Consumidor**.  
-En este primer ejemplo se envía un mensaje `"Hello World!"` desde un productor hacia un consumidor a través de una cola llamada `hello`.
+El segundo tutorial aborda cómo enviar múltiples mensajes a una cola y cómo los consumidores los procesan. También se ve la persistencia básica de mensajes.
+Ver más en Work Queues tutorial
+.
+Carpeta: queues
 
-### ESTRUCTURA
+3. publish-subscribe
 
----rabbitmq-tutorial-1/
-│
-├── send.py        # Productor (envía mensajes)
-├── receive.py     # Consumidor (recibe mensajes)
-└── README.md
+Este tutorial muestra cómo un mensaje puede ser enviado a múltiples consumidores mediante el patrón de “publicar-suscribir” usando un exchange tipo fanout.
+Ver más en Publish/Subscribe tutorial
+.
+Carpeta: publish-subscribe
 
-### EJECUCIÓN
+4. enrutamiento
 
-[Ver diagrama](https://github.com/Kath1109/RabbitMQ/blob/main/Images/hello_world.png?raw=true)
-
-
+El cuarto tutorial trata el patrón de enrutamiento (routing) usando exchanges del tipo direct. Se muestran mensajes enrutados a diferentes colas según una “key” de enrutamiento.
+Ver más en Routing tutorial
+.
+Carpeta: enrutamiento
 
